@@ -31,10 +31,11 @@ form {
     align-items: center;
 }
 
-    form h2 {
-        margin-bottom: 20px;
-        color: #333333;
-    }
+form h2 {
+    margin-bottom: 20px;
+    color: #333333;
+
+}
 
 input {
     width: 100%;
@@ -48,7 +49,7 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #e07a5f; /* пастельный оранжево-красный */
+    background-color: #e07a5f; 
     color: white;
     border: none;
     border-radius: 8px;
@@ -57,6 +58,101 @@ button {
     transition: background-color 0.3s ease;
 }
 
-    button:hover {
-        background-color: #d1603d;
+button:hover {
+    background-color: #d1603d;
+
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+#logout-btn {
+    margin-top: 20px;
+    padding: 10px 24px;
+    background-color: #84a59d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; 
+    min-width: 120px; 
+    text-align: center;
+}
+
+
+#logout-btn:hover {
+     background-color: #6c8c83;
+ }
+
+
+.navbar {
+    background-color: #e07a5f;
+    padding: 10px 20px;
+}
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        gap: 15px;
     }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        transition: background 0.3s ease;
+        border-radius: 5px;
+    }
+
+        .navbar a:hover {
+            background-color: #ba5a47;
+        }
+
+    .navbar button {
+        background-color: #84a59d;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+ .navbar button:hover {
+    background-color: #6c8c83;
+ }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-menu,
+.right-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.dashboard h1 {
+    font-size: 32px; 
+    text-align: center;
+    color: #e07a5f;
+    margin-top: 100px;
+}
+
+
