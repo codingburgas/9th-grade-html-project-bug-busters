@@ -1,1 +1,1 @@
-console.log("Fire Safety System is running...");
+console.log("Fire Safety System is running");
