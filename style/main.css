@@ -6,11 +6,18 @@ body {
 }
 
 h1 {
-    color: #e07a5f; 
+    color: #e07a5f;
     text-align: center;
     margin-bottom: 40px;
 }
 
+#register-message {
+    color:rgb(228, 47, 67);
+}
+
+#login-message {
+    color:rgb(228, 47, 67);
+}
 
 .form-container {
     display: flex;
@@ -154,5 +161,3 @@ button:hover {
     color: #e07a5f;
     margin-top: 100px;
 }
-
-
