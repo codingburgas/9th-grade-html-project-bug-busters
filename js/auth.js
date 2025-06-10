@@ -54,7 +54,11 @@ document.getElementById("register-form").addEventListener("submit", async functi
     users.push({ name, email, password });
     localStorage.setItem("users", JSON.stringify(users));
 
-    alert("Registration successful! You can now log in.");
+    document.getElementById("register-message").style.cssText = `color: ${rgb(25, 144, 25)};`;
+    document.getElementById("register-message").innerHTML = "Registration successful! You can now log in.";
+    await sleep(3500); 
+    document.getElementById("register-message").innerHTML = "";
+    document.getElementById("register-message").style.cssText = `color: ${rgb(228, 47, 67)};`;
     this.reset();
 });
 
