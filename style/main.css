@@ -104,7 +104,7 @@ button:hover {
     padding: 10px 20px;
 }
 
-    .navbar ul {
+   .navbar ul {
         display: flex;
         justify-content: center;
         list-style: none;
@@ -216,6 +216,35 @@ form {
         border-radius: 8px;
         font-size: 14px;
     }
+
+
+#incident-form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    #incident-form input,
+    #incident-form select,
+    #incident-form button {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    #incident-form button {
+        background-color: #84a59d;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        #incident-form button:hover {
+            background-color: #6c8c83;
+        }
 
 
 
