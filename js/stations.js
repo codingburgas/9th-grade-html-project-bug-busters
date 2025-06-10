@@ -34,10 +34,13 @@ function renderStations() {
     stations.forEach((station, index) => {
         const li = document.createElement("li");
         li.innerHTML = `
-      ${station.name} (${station.location})
-      <button onclick="editStation(${index})">Edit</button>
-      <button onclick="deleteStation(${index})">Delete</button>
-    `;
+  <div>${station.name} (${station.location})</div>
+  <div class="station-buttons">
+    <button onclick="editStation(${index})">Edit</button>
+    <button onclick="deleteStation(${index})">Delete</button>
+  </div>
+`;
+
         list.appendChild(li);
     });
 }

@@ -204,5 +204,20 @@ form {
     }
 
 
+.station-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .station-buttons button {
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+
+
 
 
