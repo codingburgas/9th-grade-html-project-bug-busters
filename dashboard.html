@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fire Stations</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style/main.css" />
 </head>
 <body>
@@ -18,25 +18,15 @@
                 <a href="stats.html">Statistics</a>
             </div>
             <div class="right-menu">
-                <button id="dark-mode-btn">Switch to Dark Mode</button>
                 <button id="logout-btn">Logout</button>
             </div>
         </div>
     </nav>
 
-    <div class="dashboard">
-        <h1>Fire Stations</h1>
-
-        <form id="station-form">
-            <input type="text" id="station-name" placeholder="Station Name" required />
-            <input type="text" id="station-location" placeholder="Location" required />
-            <button type="submit">Add Station</button>
-        </form>
-
-        <ul id="station-list"></ul>
-    </div>
+    <main class="dashboard">
+        <h1 id="welcome-message">Welcome!</h1>
+    </main>
 
     <script src="js/dashboard.js"></script>
-    <script src="js/stations.js"></script>
 </body>
 </html>

@@ -104,7 +104,7 @@ button:hover {
     padding: 10px 20px;
 }
 
-    .navbar ul {
+   .navbar ul {
         display: flex;
         justify-content: center;
         list-style: none;
@@ -160,8 +160,15 @@ button:hover {
     text-align: center;
     color: #e07a5f;
     margin-top: 100px;
+<<<<<<< HEAD
 }
 
+=======
+<<<<<<< HEAD
+}
+
+
+>>>>>>> 0e9524badd290e96b532a0739fa9a022e74ae695
 form {
     margin-top: 20px;
     display: flex;
@@ -215,6 +222,7 @@ form {
         font-size: 14px;
     }
 
+<<<<<<< HEAD
 body.dark-mode {
     background-color: rgb(30, 30, 30);
     color: rgb(240, 240, 240);
@@ -250,6 +258,38 @@ body.dark-mode button {
     background-color: rgb(68, 68, 68);
     color: rgb(240, 240, 240);
 }
+=======
+
+#incident-form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    #incident-form input,
+    #incident-form select,
+    #incident-form button {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    #incident-form button {
+        background-color: #84a59d;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        #incident-form button:hover {
+            background-color: #6c8c83;
+        }
+
+
+>>>>>>> 0e9524badd290e96b532a0739fa9a022e74ae695
 
 
 
