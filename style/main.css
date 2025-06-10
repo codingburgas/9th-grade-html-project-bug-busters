@@ -156,3 +156,43 @@ button:hover {
 }
 
 
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+    form input, form button {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    form button {
+        background-color: #84a59d;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        form button:hover {
+            background-color: #6c8c83;
+        }
+
+#station-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+    #station-list li {
+        padding: 6px 0;
+    }
+
+
