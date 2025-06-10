@@ -23,7 +23,8 @@
 <h2 id="about-the-project">About The Project 📖</h2>
 
 <p align="justify">
-    <p> Our app makes it easy to connect with nearby firefighter crews and check their availability in real time. Whether for emergencies, fire watch, or community events, users can quickly find and contact the right team.
+    <p> Our app makes it easy to connect with nearby firefighter crews and check their availability in real time.
+        Whether for emergencies, fire watch, or community events, users can quickly find and contact the right team.
         It’s a smarter, faster way to stay safe and connected to the professionals who protect us.</p>
 </p>
 
@@ -39,11 +40,16 @@
 <img src="https://github.com/user-attachments/assets/54e7f041-53c0-438f-8467-dde8d73773ec" width="5000" alt="BlueStripe">
 
 ##  Used Technologies
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" width="20" alt="Visual Studio 2022 Logo"> <a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2022</a>
+-<p>
+- <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="20" alt="Visual Studio Code Logo"><a href="https://code.visualstudio.com/">Visual Studio Code</a>
+
+
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" alt="GitHub Logo"> <a href="https://github.com/">GitHub</a>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" width="20" alt="MS Word Logo"> <a href="https://en.wikipedia.org/wiki/Microsoft_Word">MS Word</a>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="20" alt="MS PowerPoint Logo"> <a href="https://bg.wikipedia.org/wiki/Microsoft_PowerPoint">MS PowerPoint</a>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2203px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" width="20" alt="MS Teams Logo"> <a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software">MS Teams</a>
+</p>
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ## For the making of our project we used:
@@ -63,4 +69,4 @@
 
 <hr>
 
-<h2 align="center">Thanks for checking out our repo, show us some :heart: by giving our repo a ⭐️!</h2>
+<h2 align="center">Thanks for checking out our repo!</h2>
