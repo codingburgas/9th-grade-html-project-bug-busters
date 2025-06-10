@@ -31,8 +31,8 @@
 
 <h2>🏆👨🏻‍💻 The Team</h2>
 <p><a href="https://github.com/RVParapanova23">Rosica Parapanova 9V🟢</a> - Scrum Trainer</p>
-<p><a href="https://github.com/LESusova23">Leya Susova 9B🔴</a> - Back-end Developer</p>
-<p><a href="https://github.com/KRParashkevov23">Kristiyan Parashkevov 9G🔵</a> - Back-end Developer</p>
+<p><a href="https://github.com/LESusova23">Leya Susova 9B🔴</a> - Backend Developer</p>
+<p><a href="https://github.com/KRParashkevov23">Kristiyan Parashkevov 9G🔵</a> -Frontend Developer</p>
 <p><a href="https://github.com/lzkumanov23">Lubomir Kumanov 9G🔵</a> - Designer</p>
 
 
