@@ -160,8 +160,15 @@ button:hover {
     text-align: center;
     color: #e07a5f;
     margin-top: 100px;
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
 
+
+=======
+}
+
+>>>>>>> darkmode
 form {
     margin-top: 20px;
     display: flex;
@@ -215,6 +222,9 @@ form {
         font-size: 14px;
     }
 
+<<<<<<< HEAD
+
+=======
 body.dark-mode {
     background-color: rgb(30, 30, 30);
     color: rgb(240, 240, 240);
@@ -250,3 +260,7 @@ body.dark-mode button {
     background-color: rgb(68, 68, 68);
     color: rgb(240, 240, 240);
 }
+>>>>>>> darkmode
+
+
+
