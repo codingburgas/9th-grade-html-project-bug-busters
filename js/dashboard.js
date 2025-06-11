@@ -3,7 +3,7 @@ const user = JSON.parse(localStorage.getItem("currentUser"));
 if (user) {
     const welcome = document.getElementById("welcome-message");
     if (welcome) {
-        welcome.textContent = `Welcome, ${user.fullName}!`;
+        welcome.textContent = `Welcome, ${user.name}!`;
     }
 }
 
